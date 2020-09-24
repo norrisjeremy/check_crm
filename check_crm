@@ -20,6 +20,8 @@
 #                   threshold ( Zoran Bosnjak & Marko Hrastovec )
 # v0.8 01/15/2019 - Use Monitoring::Plugin instead of Nagios::Plugin.
 #                   Nagios::Plugin isn't supported anymore.
+# v0.8 01/09/2020 - Make less assumptions about crm output
+#                   ( Jan Tlusty )
 #
 # NOTES:    Requires Perl 5.8 or higher & the Perl Module Nagios::Plugin
 #           Add the nagios/nrpe user to the haclient group (the name can be
